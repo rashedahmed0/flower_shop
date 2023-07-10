@@ -122,13 +122,13 @@
 .feature-card1-img {
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
-    padding: 39px 0px 20px 0px;
+    padding: 64px 0px 0px 0px;
 }
 
 .feature-card2-img {
     border-radius: 300px 300px 0px 0px;
-    background: rgba(71, 125, 17, 0.15);
-    padding: 57px 17px 0px 10px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 58px 17px 0px 10px;
 }
 
 .feature-card3-img {
@@ -213,6 +213,10 @@
     flex-basis: 48%;
 }
 
+.deal-text span {
+    color: #E55473;
+}
+
 .deal-text h1 {
     color: #272727;
     font-size: 30px;
@@ -256,3 +260,27 @@
 .insta-item img {
     max-width: 100%;
 }
+
+/* Subscribe section  */
+.subscribe {
+    margin-bottom: 100px;
+    padding: 80px;
+    background-image: url(./Rectangle\ 9.png);
+}
+
+.subscribe-content {
+    text-align: center;
+}
+
+form {}
+
+form input {
+    padding-left: 20px;
+    width: 551px;
+    height: 53px;
+    margin-right: 10px;
+    border: none;
+    outline: none;
+}
+
+form button {}

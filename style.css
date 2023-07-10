@@ -150,3 +150,33 @@
     font-weight: 700;
     text-decoration-line: underline;
 }
+
+
+
+/* service section */
+.service {
+    background-color: rgba(39, 39, 39, 0.05);
+    padding: 100px 0;
+    border-radius: 5px;
+    margin-bottom: 100px;
+}
+
+.service-content {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.service-item {
+    text-align: center;
+}
+
+.service-item-img {}
+
+.service-item-img img {
+    width: 80px;
+}
+
+.service-item-tex {}
+
+.service-item-tex p {}

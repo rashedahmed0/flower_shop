@@ -19,6 +19,20 @@
     transition: 0.6s;
 }
 
+.btn1 {
+    border-radius: 8px;
+    border: 1.5px solid #E55473;
+    color: white;
+    background: #E55473;
+    padding: 17px 35px
+}
+
+.btn1:hover {
+    background: transparent;
+    color: #E55473;
+    transition: 0.6s;
+}
+
 .container {
     width: 85%;
     margin: auto;
@@ -61,12 +75,13 @@
 .banner-text a {}
 
 .banner-img {
+    text-align: right;
     flex-basis: 48%;
     padding-top: 50px;
 }
 
 .banner-img img {
-    width: 410px;
+    width: 435px;
 }
 
 /* feature section */
@@ -95,6 +110,8 @@
     padding-bottom: 30px;
 }
 
+
+
 .feature-content {
     display: flex;
     justify-content: space-between;
@@ -121,14 +138,14 @@
 
 .feature-card1-img {
     border-radius: 300px 300px 0px 0px;
-    background: rgba(71, 125, 17, 0.15);
-    padding: 64px 0px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 86px 17px 0px 10px;
 }
 
 .feature-card2-img {
     border-radius: 300px 300px 0px 0px;
-    background: rgba(167, 33, 98, 0.15);
-    padding: 58px 17px 0px 10px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 74px 17px 0px 10px;
 }
 
 .feature-card3-img {
@@ -141,7 +158,7 @@
 }
 
 .feature-card2-img img {
-    width: 80%;
+    width: 75%;
 }
 
 .feature-card3-img img {
@@ -263,6 +280,7 @@
 
 /* Subscribe section  */
 .subscribe {
+    border-radius: 8px;
     margin-bottom: 100px;
     padding: 80px;
     background-image: url(./Rectangle\ 9.png);
@@ -275,6 +293,7 @@
 form {}
 
 form input {
+    border-radius: 8px;
     padding-left: 20px;
     width: 551px;
     height: 53px;
@@ -284,3 +303,43 @@ form input {
 }
 
 form button {}
+
+
+/* footer section */
+footer {
+    padding: 80px 0;
+    background-color: black;
+}
+
+.title1 {
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.title1 h1 {
+    color: white;
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.title1 p {
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-bottom: 30px;
+}
+
+span {
+    color: #E55473;
+}
+
+.footer-text {
+    text-align: center;
+}
+
+.footer-text p {
+    color: #777;
+}

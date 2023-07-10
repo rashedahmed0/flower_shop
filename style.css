@@ -62,3 +62,91 @@
 .banner-img img {
     width: 410px;
 }
+
+/* feature section */
+.feature {
+    margin-bottom: 100px;
+}
+
+.title {
+    margin: auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.title h1 {
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.title p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-bottom: 30px;
+}
+
+.feature-content {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.feature-card1 {
+    flex-basis: 31%;
+    text-align: center;
+
+}
+
+.feature-card2 {
+    flex-basis: 31%;
+    text-align: center;
+
+}
+
+.feature-card3 {
+    flex-basis: 31%;
+    text-align: center;
+
+}
+
+.feature-card1-img {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 39px 0px 20px 0px;
+}
+
+.feature-card2-img {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 57px 17px 0px 10px;
+}
+
+.feature-card3-img {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.feature-card1-img img {
+    width: 100%;
+}
+
+.feature-card2-img img {
+    width: 80%;
+}
+
+.feature-card3-img img {
+    width: 79%;
+}
+
+
+.feature-card-text p {
+    margin-top: 20px;
+    color: #272727;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}

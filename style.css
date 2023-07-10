@@ -7,9 +7,16 @@
 }
 
 .btn {
+    border: 1.5px solid #E55473;
     color: white;
     background: #E55473;
-    padding: 20px 43px;
+    padding: 17px 35px
+}
+
+.btn:hover {
+    background: transparent;
+    color: #E55473;
+    transition: 0.6s;
 }
 
 .container {
@@ -36,7 +43,6 @@
 }
 
 .banner-text h1 {
-    font-family: Lato;
     color: #272727;
     font-size: 57px;
     font-weight: 800;
@@ -177,6 +183,57 @@
     width: 80px;
 }
 
-.service-item-tex {}
+.service-item-text {}
 
-.service-item-tex p {}
+.service-item-text p {
+    margin-top: 20px;
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 17px;
+    font-weight: 600;
+
+}
+
+
+/* deal section */
+.deal {
+    margin-bottom: 100px;
+    background-color: rgba(229, 84, 115, 0.05);
+    ;
+    padding: 60px 0;
+}
+
+.deal-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.deal-text {
+    flex-basis: 48%;
+}
+
+.deal-text h1 {
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+    padding-bottom: 10px;
+}
+
+.deal-text p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-bottom: 30px;
+}
+
+.deal-text a {}
+
+.deal-img {
+    flex-basis: 48%;
+}
+
+.deal-img img {
+    width: 55%;
+}

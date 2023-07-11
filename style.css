@@ -38,6 +38,46 @@
     margin: auto;
 }
 
+/* header section */
+header {
+    padding-top: 20px;
+    background-color: rgba(229, 84, 115, 0.10);
+}
+
+nav {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo {}
+
+.logo h1 {}
+
+.logo span {}
+
+.navbar {}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    margin: 0 9px;
+}
+
+.navbar ul li a {
+    color: black;
+}
+
+.buy {}
+
+.buy a {
+    /* color: white; */
+}
+
+
 
 /* banner section */
 .banner {
@@ -58,7 +98,7 @@
 
 .banner-text h1 {
     color: #272727;
-    font-size: 57px;
+    font-size: 50px;
     font-weight: 800;
     padding-bottom: 10px;
 

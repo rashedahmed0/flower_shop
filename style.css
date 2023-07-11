@@ -389,18 +389,6 @@ nav {
 
 }
 
-
-
-.contact-us form textarea {
-    text-align: center;
-    margin: 30px 0;
-    outline: 0;
-    display: block;
-    border: none;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    padding: 19px 63px;
-}
-
 .contact-map {
     flex-basis: 50%;
     margin-left: 50px;
